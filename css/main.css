@@ -2,16 +2,28 @@ html {
   font-family: Raleway, sans-serif;
 }
 
+.top-nav {
+  text-decoration: none;
+  padding: .5em;
+  color: white;
+  list-style-type: none;
+}
+
+.top-nav:hover {
+  color: red;
+}
+
 .btn {
-  background-color: white;
+  background-color: black;
+  padding: 1em;
 }
 
 .btn:hover {
-  background-color: red;
+  color: red;
 }
 
 .btn-p {
-  color: black;
+  color: white;
 }
 
 h1 {
@@ -41,6 +53,29 @@ nav a {
 }
 
 nav a:hover {
-  background-color: red;
-  color: white;
+  color: red;
+}
+
+.tour {
+  background-image: url(../images/bucket-1.jpg);
+  background-size: cover;
+  padding-top: 2em;
+  padding-bottom: 5em;
+}
+
+.tour h3 {
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: .5em;
+}
+
+.price {
+  background-image: url(../images/bucket-2.jpg);
+  background-size: cover;
+  padding-top: 2em;
+  padding-bottom: 5em;
+}
+
+.price h3 {
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: .5em;
 }
