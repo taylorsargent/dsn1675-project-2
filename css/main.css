@@ -1,16 +1,46 @@
 html {
-  font-family: sans-serif;
+  font-family: Raleway, sans-serif;
 }
 
+.btn {
+  background-color: white;
+}
+
+.btn:hover {
+  background-color: red;
+}
+
+.btn-p {
+  color: black;
+}
+
+h1 {
+  color: white;
+}
 
 header {
-  background-color: pink;
-}
-
-main {
-  background-color: lightblue;
+  background-color: black;
 }
 
 footer {
-  background-color: olive;
+  background-color: black;
+}
+
+footer p {
+  color: white;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav a {
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+}
+
+nav a:hover {
+  background-color: red;
+  color: white;
 }
