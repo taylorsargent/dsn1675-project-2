@@ -107,3 +107,19 @@ nav a:hover {
 .price-btn:hover {
   color: red;
 }
+
+.red {
+  color: red;
+}
+
+.banner-2 {
+  background-image: url(../images/banner-2.jpg);
+  background-size: cover;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.banner-2 h1 {
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: .25em;
+}
