@@ -135,3 +135,46 @@ nav a:hover {
   background-color: rgba(255, 255, 255, 0.75);
   padding: .25em;
 }
+
+.banner-4 {
+  background-image: url(../images/banner-4.jpg);
+  background-size: cover;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.banner-4 h1 {
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: .25em;
+}
+
+.signup-box {
+  border: 1px solid black;
+  padding-right: 6em;
+  margin-top: 1em;
+  margin-left: 1em;
+  padding-bottom: .25em;
+}
+
+.signup-box a {
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+}
+
+.signup-box a:hover {
+  color: red;
+}
+
+.btn-signup {
+  background-color: black;
+  padding: .25em;
+}
+
+.btn-signup:hover {
+  color: red;
+}
+
+.btn-signup p {
+  color: white;
+}
