@@ -76,6 +76,16 @@ nav a:hover {
   padding: .5em;
 }
 
+.tour-btn {
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+}
+
+.tour-btn:hover {
+  color: red;
+}
+
 .price {
   background-image: url(../images/bucket-2.jpg);
   background-size: cover;
@@ -86,4 +96,14 @@ nav a:hover {
 .price h3 {
   background-color: rgba(255, 255, 255, 0.75);
   padding: .5em;
+}
+
+.price-btn {
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+}
+
+.price-btn:hover {
+  color: red;
 }
