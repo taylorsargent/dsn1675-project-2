@@ -2,6 +2,18 @@ html {
   font-family: Raleway, sans-serif;
 }
 
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-checked {
+  position: absolute;
+}
+
+.nav-checked:checked ~.nav-label {
+  background-color: pink;
+}
+
 .top-nav {
   text-decoration: none;
   padding: .5em;
@@ -10,6 +22,20 @@ html {
 }
 
 .top-nav:hover {
+  color: red;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav a {
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+}
+
+nav a:hover {
   color: red;
 }
 
@@ -36,20 +62,6 @@ footer {
 
 footer p {
   color: white;
-}
-
-nav ul {
-  list-style-type: none;
-}
-
-nav a {
-  text-decoration: none;
-  list-style-type: none;
-  color: white;
-}
-
-nav a:hover {
-  color: red;
 }
 
 .banner {
