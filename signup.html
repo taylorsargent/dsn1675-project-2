@@ -32,11 +32,103 @@
   </header>
 
   <main id="main" role="main">
+    <form action="https://formspree.io/taylor.sargent@hotmail.com" method="post">
 
+      <div class="island-1-2">
+        <label for="name">Username</label>
+        <input id="name" required name="name">
+      </div>
+
+      <div class="island-1-2">
+        <label for="email">Email</label>
+        <input id="email" type="email" name="email" required placeholder="example@ex.com">
+      </div>
+
+      <div class="island-1-2">
+        <label for="password">Password</label>
+        <input id="password" type="password" name="password" required>
+      </div>
+
+      <fieldset class="island-1-2">
+        <legend>Account Type</legend>
+        <input id="free" type="radio" name="account">
+        <label for="free">Free</label>
+
+        <input id="advanced" type="radio" name="account">
+        <label for="advanced">Advanced</label>
+
+        <input id="premium" type="radio" name="account">
+        <label for="premium">Premium</label>
+      </fieldset>
+
+      <div class="island-1-2">
+        <label for="cardname">Card Holder's Name</label>
+        <input id="cardname" name="cardname" required>
+      </div>
+
+      <fieldset class="island-1-2">
+        <legend>Credit Card Type</legend>
+        <input id="visa" type="radio" name="account">
+        <label for="visa">Visa</label>
+
+        <input id="amex" type="radio" name="account">
+        <label for="amex">Amex</label>
+
+        <input id="master" type="radio" name="account">
+        <label for="master">MasterCard</label>
+      </fieldset>
+
+      <div class="island-1-2">
+        <label for="cardnumb">Card Number</label>
+        <input id="cardnumb" name="cardnumb" placeholder="#" required>
+      </div>
+
+      <div class="island-1-2">
+        <label for="cvv">CVV</label>
+        <input id="cvv" name="cvv" placeholder="#" required>
+      </div>
+
+      <p class="island-1-2">Expiry Date </p>
+
+      <div class="island-1-2">
+        <label for="subject">Month</label>
+        <select id="subject" name="_subject">
+          <option></option>
+          <option>01</option>
+          <option>02</option>
+          <option>03</option>
+          <option>04</option>
+          <option>05</option>
+          <option>06</option>
+          <option>07</option>
+          <option>08</option>
+          <option>09</option>
+          <option>10</option>
+          <option>11</option>
+          <option>12</option>
+        </select>
+      </div>
+
+      <div class="island-1-2">
+        <label for="subject-2">Year</label>
+        <select id="subject-2" name="_subject">
+          <option></option>
+          <option>2015</option>
+          <option>2016</option>
+          <option>2017</option>
+          <option>2018</option>
+          <option>2019</option>
+          <option>2020</option>
+        </select>
+      </div>
 
     <div class="unit xs-1 s-1 m-1 l-1 text-center island-1-2">
       <a class="btn unit xs-1 s-1-2 m-1-2 l-1-2 text-center" href="signup.html">Sign Up Now!</a>
     </div>
+
+    <input type="hidden" name="_next" value="#">
+
+  </form>
 
 
   </main>

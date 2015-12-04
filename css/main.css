@@ -191,6 +191,23 @@ footer p {
   color: white;
 }
 
+input {
+
+}
+
+label {
+  display: block;
+  cursor: pointer;
+}
+
+input + label {
+  display: inline;
+}
+
+fieldset {
+  border: none;
+}
+
 @media only screen and (min-width:38em) {
 
   .footer-nav li {
