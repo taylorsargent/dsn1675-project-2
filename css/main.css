@@ -2,16 +2,49 @@ html {
   font-family: Raleway, sans-serif;
 }
 
+.logo {
+  float: left;
+  width: 40%;
+  height: 40%;
+  display: inline;
+}
+
+.masthead {
+  position: relative;
+}
+
+.nav {
+  display: none;
+}
+
 .nav-check:checked ~ .nav {
   display: block;
 }
 
-.nav-checked {
+.nav-check {
   position: absolute;
+  top: -3em;
 }
 
-.nav-checked:checked ~.nav-label {
+.nav-label {
+  display: inline-block;
+  width: 40px;
+  position: absolute;
+  top: 1em;
+  right: 3em;
+}
+
+.nav-check:checked ~ .nav-label {
   background-color: pink;
+}
+
+.nav li {
+  color: white;
+  padding: 0.5em;
+}
+
+.nav li:hover {
+  color: red;
 }
 
 .top-nav {
@@ -214,6 +247,27 @@ fieldset {
     display: inline-block;
     margin-left: 1em;
     margin-right: 1em;
+  }
+
+  .logo {
+    float: left;
+    width: 30%;
+    height: 30%;
+    display: inline;
+  }
+
+  .nav {
+    display: inline;
+  }
+
+  .nav-label {
+    display: none;
+  }
+
+  .nav li {
+    color: white;
+    padding: 0.5em;
+    display: inline;
   }
 
 }
